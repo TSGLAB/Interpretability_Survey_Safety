@@ -1,4 +1,22 @@
-# Interpretability for AI Safety: Interactive Notebooks
+# Interpretability for AI Safety Survey: Interactive Notebooks
+
+## Overview
+
+These notebooks provide hands-on implementations of key  interpretability techniques. Each notebook is self-contained with explanations, code, and exercises — designed to build intuition for how these methods work and when to apply them.
+
+The notebooks progress from foundational concepts to safety-relevant applications.
+
+*Recommended order:** Notebooks are numbered intentionally. Within each section, start with `01_` and progress sequentially.
+
+**Dependencies:**
+- `01_core_hypotheses/` → Foundation for everything else. Start here.
+- `02_feature_extraction/` → Requires understanding of superposition (01_02)
+- `03_circuits/` → Builds on feature extraction concepts
+- `04_intermediate_computation/` → Largely independent, can be done in parallel
+- `05_representation_analysis/` → Requires circuits and intermediate computation
+- `06_safety_applications/` → Capstone; assumes familiarity with prior sections
+
+
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
