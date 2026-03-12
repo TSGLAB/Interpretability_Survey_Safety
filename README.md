@@ -32,8 +32,7 @@ notebooks/
 ├── 01_core_hypotheses/
 │   ├── 01_linear_representation_hypothesis.ipynb
 │   ├── 02_superposition_hypothesis.ipynb
-│   ├── 03_privileged_access_hypothesis.ipynb
-│   └── 04_universality_platonic_representation.ipynb
+│   └── 03_privileged_access_hypothesis.ipynb
 │
 ├── 02_feature_extraction/
 │   ├── 01_sparse_autoencoders_basics.ipynb
