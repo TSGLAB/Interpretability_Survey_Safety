@@ -47,7 +47,8 @@ notebooks/
 │   ├── 01_logit_lens.ipynb
 │   ├── 02_tuned_lens.ipynb
 │   ├── 03_patchscopes.ipynb
-│   └── 04_probing_classifiers.ipynb
+│   └── 04_probing_classifiers.ipynb 
+│   └── 05_activation_oracles.ipynb
 │
 ├── 05_representation_analysis/
 │   ├── 01_model_diffing.ipynb
