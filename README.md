@@ -46,10 +46,10 @@ notebooks/
 ├── 04_intermediate_computation/
 │   ├── 01_logit_lens.ipynb
 │   ├── 02_tuned_lens.ipynb
-│   ├── 03_patchscopes.ipynb
-│   ├── 04_probing_classifiers.ipynb
-│   ├── 05_activation_oracles.ipynb
-│   └── 06_jacobian_lens.ipynb
+│   ├── 03_jacobian_lens.ipynb
+│   ├── 04_patchscopes.ipynb
+│   ├── 05_probing_classifiers.ipynb
+│   └── 06_activation_oracles.ipynb
 │
 ├── 05_representation_analysis/
 │   ├── 01_model_diffing.ipynb
@@ -108,10 +108,10 @@ pip install -r ./requirements.txt
 |----------|-------------|
 | **01_logit_lens** | Project intermediate representations to vocabulary space. |
 | **02_tuned_lens** | Learned per-layer transforms for better intermediate decoding. |
-| **03_patchscopes** | Use the LM itself to explain its intermediate representations. |
-| **04_probing_classifiers** | Linear probes, control tasks, and causal limitations of probing. |
-| **05_activation_oracles** | Training LLMs to explain their own activations (LatentQA). |
-| **06_jacobian_lens** | The Jacobian lens — measures the model's average Jacobian to read verbalizable representations from intermediate layers. Follows the official walkthrough; includes fitting and R-lens. |
+| **03_jacobian_lens** | The Jacobian lens — measures the model's average Jacobian to read verbalizable representations from intermediate layers. Follows the official walkthrough; includes fitting and R-lens. |
+| **04_patchscopes** | Use the LM itself to explain its intermediate representations. |
+| **05_probing_classifiers** | Linear probes, control tasks, and causal limitations of probing. |
+| **06_activation_oracles** | Training LLMs to explain their own activations (LatentQA). |
 
 ### Representation Analysis (`05_representation_analysis/`)
 
