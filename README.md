@@ -49,7 +49,8 @@ notebooks/
 │   ├── 03_jacobian_lens.ipynb
 │   ├── 04_patchscopes.ipynb
 │   ├── 05_probing_classifiers.ipynb
-│   └── 06_activation_oracles.ipynb
+│   ├── 06_activation_oracles.ipynb
+│   └── 07_natural_language_autoencoders.ipynb
 │
 ├── 05_representation_analysis/
 │   ├── 01_model_diffing.ipynb
@@ -112,6 +113,7 @@ pip install -r ./requirements.txt
 | **04_patchscopes** | Use the LM itself to explain its intermediate representations. |
 | **05_probing_classifiers** | Linear probes, control tasks, and causal limitations of probing. |
 | **06_activation_oracles** | Training LLMs to explain their own activations (LatentQA). |
+| **07_natural_language_autoencoders** | Read an activation as free-form English via a released NLA (verbalizer + reconstructor). Follows the official repo — inference over an SGLang server, with reconstruction/FVE scoring. |
 
 ### Representation Analysis (`05_representation_analysis/`)
 
