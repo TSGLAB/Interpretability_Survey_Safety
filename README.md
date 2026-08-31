@@ -47,8 +47,9 @@ notebooks/
 │   ├── 01_logit_lens.ipynb
 │   ├── 02_tuned_lens.ipynb
 │   ├── 03_patchscopes.ipynb
-│   └── 04_probing_classifiers.ipynb 
-│   └── 05_activation_oracles.ipynb
+│   ├── 04_probing_classifiers.ipynb
+│   ├── 05_activation_oracles.ipynb
+│   └── 06_jacobian_lens.ipynb
 │
 ├── 05_representation_analysis/
 │   ├── 01_model_diffing.ipynb
@@ -109,6 +110,8 @@ pip install -r ./requirements.txt
 | **02_tuned_lens** | Learned per-layer transforms for better intermediate decoding. |
 | **03_patchscopes** | Use the LM itself to explain its intermediate representations. |
 | **04_probing_classifiers** | Linear probes, control tasks, and causal limitations of probing. |
+| **05_activation_oracles** | Training LLMs to explain their own activations (LatentQA). |
+| **06_jacobian_lens** | The Jacobian lens — measures the model's average Jacobian to read verbalizable representations from intermediate layers. Follows the official walkthrough; includes fitting and R-lens. |
 
 ### Representation Analysis (`05_representation_analysis/`)
 
