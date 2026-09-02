@@ -162,17 +162,6 @@ transformer-lens>=1.0.0
 
 ---
 
-## 📄 Citation
-
-```bibtex
-@article{interpretability_survey_2025,
-  title={The State of Interpretability for AI Safety},
-  author={Anonymous},
-  year={2025}
-}
-```
-
----
 
 ## 📜 License
 
