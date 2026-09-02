@@ -136,7 +136,7 @@ pip install -r ./requirements.txt
 
 ```bash
 # Clone and setup
-git clone https://github.com/anonymous/Interpretability_Survey_Safety.git
+Download this folder
 cd Interpretability_Survey_Safety
 pip install -r requirements.txt
 ```
