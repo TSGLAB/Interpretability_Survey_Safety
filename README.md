@@ -146,33 +146,7 @@ If you use these notebooks, please cite the survey:
 ```bibtex
 @article{barez2026state,
   title   = {The State of Interpretability for AI Safety: A Survey of Foundations, Methods, and Research Directions},
-  author  = {Barez, Fazl and
-             Wu, Tung-Yu and
-             Maiwald, Aaron and
-             Harrasse, Abir and
-             Simhi, Adi and
-             Garc{\'\i}a, Ant{\'\i}a and
-             Li, Belinda Z. and
-             Fornasiere, Damiano and
-             Draye, Florent and
-             Dominici, Gabriele and
-             Batra, Hunar and
-             Lan, Michael and
-             Oozeer, Narmeen Fatimah and
-             Shafran, Or David and
-             Harris, Riley and
-             Trager, Robert and
-             Hooker, Sara and
-             Cohen, Shay B. and
-             Upadhyay, Shriyash Kaustubh and
-             Elazar, Yanai and
-             Zhao, Yu and
-             Yao, Ziyu and
-             Saphra, Naomi and
-             Geva, Mor and
-             Bengio, Yoshua and
-             Biderman, Stella and
-             Sajjad, Hassan},
+  author  = {Barez, Fazl and others},
   journal = {arXiv preprint arXiv:XXXX.XXXXX},
   year    = {2026}
 }
