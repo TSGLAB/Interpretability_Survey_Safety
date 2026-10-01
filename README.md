@@ -1,12 +1,17 @@
 # Interpretability for AI Safety Survey: Interactive Notebooks
 
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Companion notebooks for **"The State of Interpretability for AI Safety: Survey of Foundations, Methods, and Research Directions"**, focusing on mechanistic interpretability (MI) for AI safety.
+
 ## Overview
 
-These notebooks provide hands-on implementations of key  interpretability techniques. Each notebook is self-contained with explanations, code, and exercises — designed to build intuition for how these methods work and when to apply them.
+These notebooks provide hands-on implementations of key interpretability techniques. Each notebook is self-contained with explanations, code, and exercises — designed to build intuition for how these methods work and when to apply them.
 
 The notebooks progress from foundational concepts to safety-relevant applications.
 
-*Recommended order:** Notebooks are numbered intentionally. Within each section, start with `01_` and progress sequentially.
+**Recommended order:** Notebooks are numbered intentionally. Within each section, start with `01_` and progress sequentially.
 
 **Dependencies:**
 - `01_core_hypotheses/` → Foundation for everything else. Start here.
@@ -15,13 +20,6 @@ The notebooks progress from foundational concepts to safety-relevant application
 - `04_intermediate_computation/` → Largely independent, can be done in parallel
 - `05_representation_analysis/` → Requires circuits and intermediate computation
 - `06_safety_applications/` → Capstone; assumes familiarity with prior sections
-
-
-
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-Interactive Python notebooks for understanding AI interpretability concepts, focusing on mechanistic interpretability (MI) for AI safety. Companion materials for **"The State of Interpretability for AI Safety: Survey of Foundations, Methods, and Research Directions"**.
 
 ---
 
@@ -40,8 +38,7 @@ notebooks/
 │   └── 03_crosscoders.ipynb
 │
 ├── 03_circuits/
-│   ├── 01_circuit_discovery.ipynb
-│   └── 02_causal_verification.ipynb
+│   └── 01_circuit_discovery.ipynb
 │
 ├── 04_intermediate_computation/
 │   ├── 01_logit_lens.ipynb
@@ -64,16 +61,20 @@ notebooks/
 
 ---
 
-## 🛠️ Environment Setup
+## 🛠️ Setup
 
 ```bash
-# Create and activate conda environment
+git clone https://github.com/fbarez/Interpretability_Survey_Safety.git
+cd Interpretability_Survey_Safety
+
 conda create -n misurvey python=3.11 -y
 conda activate misurvey
+pip install -r requirements.txt
 
-# Install dependencies
-pip install -r ./requirements.txt
+jupyter notebook notebooks/
 ```
+
+See [`requirements.txt`](requirements.txt) for the full dependency list.
 
 ---
 
@@ -86,7 +87,6 @@ pip install -r ./requirements.txt
 | **01_linear_representation_hypothesis** | Concepts as linear directions in activation space. Visualization and probing experiments. |
 | **02_superposition_hypothesis** | How networks represent more features than neurons. Toy models and geometry. |
 | **03_privileged_access_hypothesis** | Privileged bases and when neurons align with interpretable features. |
-| **04_universality_platonic_representation** | Universal representations across models and the Platonic representation hypothesis. |
 
 ### Feature Extraction (`02_feature_extraction/`)
 
@@ -101,7 +101,6 @@ pip install -r ./requirements.txt
 | Notebook | Description |
 |----------|-------------|
 | **01_circuit_discovery** | Activation patching, path patching, and automatic circuit discovery methods. |
-| **02_causal_verification** | Causal scrubbing and intervention techniques to verify circuit hypotheses. |
 
 ### Intermediate Computation (`04_intermediate_computation/`)
 
@@ -132,29 +131,7 @@ pip install -r ./requirements.txt
 
 ---
 
-## 🚀 Getting Started
-
-```bash
-# Clone and setup
-Download this folder
-cd Interpretability_Survey_Safety
-pip install -r requirements.txt
-```
-
-### Requirements
-
-```
-torch>=2.0.0
-transformers>=4.35.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-einops>=0.7.0
-transformer-lens>=1.0.0
-```
-
----
-
-##  Related Resources
+## 🔗 Related Resources
 
 - [TransformerLens](https://github.com/neelnanda-io/TransformerLens)
 - [SAELens](https://github.com/jbloomAus/SAELens)
@@ -162,7 +139,6 @@ transformer-lens>=1.0.0
 
 ---
 
-
 ## 📜 License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License.
