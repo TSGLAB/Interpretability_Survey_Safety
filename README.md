@@ -139,6 +139,23 @@ See [`requirements.txt`](requirements.txt) for the full dependency list.
 
 ---
 
+## 📝 Citation
+
+If you use these notebooks, please cite the survey:
+
+```bibtex
+@article{interpsurvey2026,
+  title   = {The State of Interpretability for AI Safety: Survey of Foundations, Methods, and Research Directions},
+  author  = {TBA},
+  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  year    = {2026}
+}
+```
+
+*arXiv link and full author list will be added once the paper is public.*
+
+---
+
 ## 📜 License
 
 MIT License.
