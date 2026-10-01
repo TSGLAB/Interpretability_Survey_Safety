@@ -3,7 +3,7 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Companion notebooks for **"The State of Interpretability for AI Safety: Survey of Foundations, Methods, and Research Directions"**, focusing on mechanistic interpretability (MI) for AI safety.
+Companion notebooks for **"The State of Interpretability for AI Safety: A Survey of Foundations, Methods, and Research Directions"**, focusing on mechanistic interpretability (MI) for AI safety.
 
 ## Overview
 
@@ -144,15 +144,41 @@ See [`requirements.txt`](requirements.txt) for the full dependency list.
 If you use these notebooks, please cite the survey:
 
 ```bibtex
-@article{interpsurvey2026,
-  title   = {The State of Interpretability for AI Safety: Survey of Foundations, Methods, and Research Directions},
-  author  = {TBA},
+@article{barez2026state,
+  title   = {The State of Interpretability for AI Safety: A Survey of Foundations, Methods, and Research Directions},
+  author  = {Barez, Fazl and
+             Wu, Tung-Yu and
+             Maiwald, Aaron and
+             Harrasse, Abir and
+             Simhi, Adi and
+             Garc{\'\i}a, Ant{\'\i}a and
+             Li, Belinda Z. and
+             Fornasiere, Damiano and
+             Draye, Florent and
+             Dominici, Gabriele and
+             Batra, Hunar and
+             Lan, Michael and
+             Oozeer, Narmeen Fatimah and
+             Shafran, Or David and
+             Harris, Riley and
+             Trager, Robert and
+             Hooker, Sara and
+             Cohen, Shay B. and
+             Upadhyay, Shriyash Kaustubh and
+             Elazar, Yanai and
+             Zhao, Yu and
+             Yao, Ziyu and
+             Saphra, Naomi and
+             Geva, Mor and
+             Bengio, Yoshua and
+             Biderman, Stella and
+             Sajjad, Hassan},
   journal = {arXiv preprint arXiv:XXXX.XXXXX},
   year    = {2026}
 }
 ```
 
-*arXiv link and full author list will be added once the paper is public.*
+*arXiv link will be added once the paper is public.*
 
 ---
 
