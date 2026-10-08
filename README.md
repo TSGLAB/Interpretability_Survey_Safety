@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Companion notebooks for **"The State of Interpretability for AI Safety: A Survey of Foundations, Methods, and Research Directions"**, focusing on mechanistic interpretability (MI) for AI safety.
+[Project page](https://tsglab.github.io/mi_survey/)
 
 ## Overview
 
