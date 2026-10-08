@@ -146,15 +146,8 @@ See [`requirements.txt`](requirements.txt) for the full dependency list.
 If you use these notebooks, please cite the survey:
 
 ```bibtex
-@article{barez2026state,
-  title   = {The State of Interpretability for AI Safety: A Survey of Foundations, Methods, and Research Directions},
-  author  = {Barez, Fazl and others},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
-  year    = {2026}
-}
+[incoming]
 ```
-
-*arXiv link will be added once the paper is public.*
 
 ---
 
