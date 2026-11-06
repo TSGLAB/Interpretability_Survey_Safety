@@ -3,9 +3,9 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Companion notebooks for **"The State of Interpretability for AI Safety: A Survey of Foundations, Methods, and Research Directions"**, focusing on mechanistic interpretability (MI) for AI safety.
+Companion notebooks for **"Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety"**, focusing on mechanistic interpretability (MI) for AI safety.
 
-[Project page](https://tsglab.github.io/mi_survey/)
+[Paper (arXiv:2611.08438)](https://arxiv.org/abs/2611.08438) · [Project page](https://tsglab.github.io/mechinterp-safety/)
 
 ## Overview
 
@@ -146,7 +146,15 @@ See [`requirements.txt`](requirements.txt) for the full dependency list.
 If you use these notebooks, please cite the survey:
 
 ```bibtex
-[incoming]
+@misc{barez2026understandingaiinsidestate,
+      title={Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety}, 
+      author={Fazl Barez and Tung-Yu Wu and Hunar Batra and Gabriele Dominici and Florent Draye and Yanai Elazar and Damiano Fornasiere and Antía García and Abir Harrasse and Riley Harris and Sara Hooker and Michael Lan and Belinda Z. Li and Aaron Maiwald and Narmeen Fatimah Oozeer and Naomi Saphra and Or David Shafran and Adi Simhi and Robert Trager and Shriyash Kaustubh Upadhyay and Ziyu Yao and Yu Zhao and Shay B. Cohen and Mor Geva and Yoshua Bengio and Stella Biderman and Hassan Sajjad},
+      year={2026},
+      eprint={2611.08438},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2611.08438}, 
+}
 ```
 
 ---
