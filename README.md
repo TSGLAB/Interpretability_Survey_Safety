@@ -78,6 +78,22 @@ jupyter notebook notebooks/
 
 See [`requirements.txt`](requirements.txt) for the full dependency list.
 
+### Running on Google Colab
+
+Most notebooks run on a free Colab runtime (CPU or T4 GPU) via the "Open in Colab" links on the
+[project page](https://tsglab.github.io/mechinterp-safety/notebooks/), which also lists each notebook's hardware needs.
+The exceptions:
+
+| Notebook | Needs |
+|----------|-------|
+| `01_core_hypotheses/03_privileged_access_hypothesis` | ~32 GB GPU (A100); gated `meta-llama/Llama-3.1-8B`. Clones this repo automatically for its `model/` and `demo_data/` folders. |
+| `04_intermediate_computation/07_natural_language_autoencoders` | ~40 GB GPU plus a separately launched SGLang server; not runnable on free Colab. |
+| `05_representation_analysis/01_model_diffing` | Gated `google/gemma-2-2b` / `gemma-2-2b-it`. |
+| `05_representation_analysis/03_representation_engineering` | Part 2: ~26 GB GPU (A100); gated `meta-llama/Llama-2-13b-chat-hf`. Part 1 runs on CPU. |
+
+For gated models, accept the licence on the model's Hugging Face page, then add your token as `HF_TOKEN` in Colab's
+🔑 Secrets panel (or run `huggingface-cli login` locally). The notebooks pick it up automatically.
+
 ---
 
 ## 📖 Notebook Descriptions
@@ -88,15 +104,15 @@ See [`requirements.txt`](requirements.txt) for the full dependency list.
 |----------|-------------|
 | **01_linear_representation_hypothesis** | Concepts as linear directions in activation space. Visualization and probing experiments. |
 | **02_superposition_hypothesis** | How networks represent more features than neurons. Toy models and geometry. |
-| **03_privileged_access_hypothesis** | Privileged bases and when neurons align with interpretable features. |
+| **03_privileged_access_hypothesis** | Can a model explain its own internals better than other models can? Compares self- vs. external explainers on residual-stream and SAE feature descriptions. |
 
 ### Feature Extraction (`02_feature_extraction/`)
 
 | Notebook | Description |
 |----------|-------------|
-| **01_sparse_autoencoders_basics** | Build and train SAEs from scratch. Core principles of sparse feature extraction. |
-| **02_transcoders** | Bridging nonlinear MLP layers. Learn MLP input→output mappings in feature space. |
-| **03_crosscoders** | Cross-layer feature analysis. Track features across multiple layers. |
+| **01_sparse_autoencoders_basics** | Implement five SAE variants (ReLU, Gated, JumpReLU, Top-K, Batch Top-K) and compare them on synthetic data with known ground-truth features. |
+| **02_transcoders** | Bridging nonlinear MLP layers. Train a transcoder and a cross-layer transcoder on toy MLPs with known structure. |
+| **03_crosscoders** | Cross-layer feature analysis. Use per-layer decoder norms to separate persistent from layer-local features. |
 
 ### Circuits (`03_circuits/`)
 
@@ -128,7 +144,7 @@ See [`requirements.txt`](requirements.txt) for the full dependency list.
 
 | Notebook | Description |
 |----------|-------------|
-| **01_concept_erasure** | Remove specific concepts/capabilities from models (LEACE, PISCES). |
+| **01_concept_erasure** | Remove a concept from GPT-2's activations with a LEACE-style projection; a lightweight baseline for the PISCES pipeline. |
 | **02_steering_vectors** | Practical behavioral control through activation interventions. |
 
 ---
